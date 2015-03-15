@@ -1,0 +1,18 @@
+body{
+  background: white;
+}
+.logotipo img{
+  margin-top: 40px;
+}
+.japa-name{
+  font-family: 'JapaBrush';
+  color: #555a60;
+}
+.japa-function{
+  font-size: 10px;
+  color: #555a60;
+}
+.gray-menu{
+  background-color: #d6d6d9;
+  margin-top: 20px;
+}
