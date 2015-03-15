@@ -16,6 +16,7 @@ body{
   background-color: #d6d6d9;
   margin-top: 20px;
   padding: 20px;
+  height: 100%;
 }
 .gray-menu a, .gray-menu a:hover{
   text-decoration: none;
@@ -35,10 +36,12 @@ body{
 }
 .menu-red{
   background-image: url('../images/menu-red.png');
+  background-repeat: no-repeat;
 }
 .menu-cinza{
   margin-top: 5px;
   background-image: url('../images/menu-cinza.png');
+  background-repeat: no-repeat;
 }
 .text-tags-title{
   font-family: 'GillSansMT';
