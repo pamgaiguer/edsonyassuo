@@ -34,13 +34,14 @@ body{
   padding-top: 15px;
   font-family: 'GillSansMT';
 }
-.menu-red{
-  background-image: url('../images/menu-red.png');
-  background-repeat: no-repeat;
-}
 .menu-cinza{
   margin-top: 5px;
   background-image: url('../images/menu-cinza.png');
+  background-repeat: no-repeat;
+}
+.menu-cinza:hover{
+  margin-top: 5px;
+  background-image: url('../images/menu-red.png');
   background-repeat: no-repeat;
 }
 .text-tags-title{
