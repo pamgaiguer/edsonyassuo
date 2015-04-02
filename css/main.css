@@ -5,6 +5,31 @@ body{
 #sidebar-wrapper{
   background-color: #d6d6d9;
 }
+.gallery-home > a{
+  background: #ff6662 url('http://static.dunkedcdn.com/templates/mesh/1/images/pattern.png') repeat;
+  display: inline-block;
+}
+.gallery-home a img:hover{
+  opacity: 0.6;
+}
+.gallery-home .title{
+
+}
+
+
+
+/*=====  Projects Feed =====*/
+
+.projects-feed .project-title {
+  color: #F5F5F5;
+  display: none;
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  top: 42.5%;
+  width: 100%;
+}
+
 
 
 /*body{
