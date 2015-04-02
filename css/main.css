@@ -1,4 +1,31 @@
 body{
+  font-family: 'GillSansMT';
+}
+
+#sidebar-wrapper{
+  background-color: #d6d6d9;
+}
+.sidebar-nav li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  background-image: url('../images/menu-cinza.png');
+  background-repeat: no-repeat;
+
+
+}
+.sidebar-nav li a:hover {
+  text-decoration: none;
+  color: #fff;
+  background: rgba(255,255,255,0.2);
+  background-image: url('../images/menu-red.png');
+  background-repeat: no-repeat;
+
+}
+
+
+/*body{
   background: white;
 }
 .logotipo img{
@@ -52,4 +79,4 @@ body{
   color: #232227;
   font-family: 'GillSansMT';
   font-size:  17px;
-}
+}*/
