@@ -1,11 +1,10 @@
 body{
   font-family: 'GillSansMT';
 }
-
 #sidebar-wrapper{
   background-color: #d6d6d9;
 }
-.gallery-home > a{
+.gallery-home a{
   background: #ff6662 url('http://static.dunkedcdn.com/templates/mesh/1/images/pattern.png') repeat;
   display: inline-block;
 }
@@ -13,13 +12,8 @@ body{
   opacity: 0.6;
 }
 .gallery-home .title{
-
 }
-
-
-
 /*=====  Projects Feed =====*/
-
 .projects-feed .project-title {
   color: #F5F5F5;
   display: none;
@@ -29,9 +23,22 @@ body{
   top: 42.5%;
   width: 100%;
 }
-
-
-
+.logo{
+  background: white;
+  padding: 40px 0;
+  color: #555a60;
+}
+.logo h4{
+  font-family: 'JapaBrush';
+}
+.logo p{
+  font-family: 'GillSansMT';
+}
+.side-menu ul li{
+  background: url('../images/menu-cinza.png') no-repeat;
+  width: 229px;
+  height: 47px;
+}
 /*body{
   background: white;
 }
