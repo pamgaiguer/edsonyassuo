@@ -34,10 +34,30 @@ body{
 .logo p{
   font-family: 'GillSansMT';
 }
-.side-menu ul li{
+.side-menu{
+  margin-top: 30px;
+}
+.side-menu ul a {
+  text-decoration: none;
+}
+.side-menu ul a li{
+  margin-top: 8px;
   background: url('../images/menu-cinza.png') no-repeat;
   width: 229px;
   height: 47px;
+  font-size: 17px;
+  color: white;
+  padding-top: 13px;
+  font-family: 'GillSansMT';
+  font-weight: lighter;
+}
+.side-menu ul a li:hover{
+  background: url('../images/menu-red.png') no-repeat;
+  width: 229px;
+  height: 47px;
+  text-decoration: none;
+  color: white;
+  outline: none;
 }
 /*body{
   background: white;
