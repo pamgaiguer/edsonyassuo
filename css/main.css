@@ -59,6 +59,13 @@ body{
   color: white;
   outline: none;
 }
+.side-tags{
+  width: 228px;
+  margin: 0 auto;
+}
+.side-tags ul li a{
+  color: #555a60;
+}
 /*body{
   background: white;
 }
