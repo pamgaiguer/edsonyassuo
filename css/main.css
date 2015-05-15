@@ -63,61 +63,15 @@ body{
   width: 228px;
   margin: 0 auto;
 }
-.side-tags ul li a{
+.side-tags ul li a, #sidebar-wrapper p{
   color: #555a60;
 }
-/*body{
-  background: white;
-}
-.logotipo img{
-  margin-top: 40px;
-}
-.japa-name{
+/*=====  About Page =====*/
+.about-page h1{
   font-family: 'JapaBrush';
+  color: #ff6662;
+}
+.about-page p{
   color: #555a60;
+  font-size: 18px;
 }
-.japa-function{
-  font-size: 10px;
-  color: #555a60;
-}
-.gray-menu{
-  background-color: #d6d6d9;
-  margin-top: 20px;
-  padding: 20px;
-}
-.gray-menu a, .gray-menu a:hover{
-  text-decoration: none;
-}
-.menu-red, .menu-cinza{
-  width: 229px;
-  height: 47px;
-  margin: 0 auto;
-}
-.menu-red p, .menu-cinza p{
-  font-size: 17px;
-  font-weight: lighter;
-  text-align: center;
-  color: white;
-  padding-top: 15px;
-  font-family: 'GillSansMT';
-}
-.menu-cinza{
-  margin-top: 5px;
-  background-image: url('../images/menu-cinza.png');
-  background-repeat: no-repeat;
-}
-.menu-cinza:hover{
-  margin-top: 5px;
-  background-image: url('../images/menu-red.png');
-  background-repeat: no-repeat;
-}
-.text-tags-title{
-  font-family: 'GillSansMT';
-  font-size: 12px;
-  color: #555a60;
-}
-.tag-list{
-  color: #232227;
-  font-family: 'GillSansMT';
-  font-size:  17px;
-}*/

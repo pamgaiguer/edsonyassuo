@@ -34,7 +34,7 @@
         padding-left: 0;
     }
     #sidebar-wrapper {
-        width: 270px;
+        width: 250px;
     }
     #wrapper.toggled #sidebar-wrapper {
         width: 0;
