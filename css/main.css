@@ -13,15 +13,9 @@ body{
 }
 .gallery-home .title{
 }
-/*=====  Projects Feed =====*/
-.projects-feed .project-title {
-  color: #F5F5F5;
-  display: none;
-  margin: 0;
-  position: absolute;
-  text-align: center;
-  top: 42.5%;
-  width: 100%;
+.gallery-home video{
+  width: 340px;
+  height: 230px;
 }
 .logo{
   background: white;
