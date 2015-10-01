@@ -4,19 +4,43 @@ body{
 #sidebar-wrapper{
   background-color: #d6d6d9;
 }
-.gallery-home a{
-  background: #ff6662 url('http://static.dunkedcdn.com/templates/mesh/1/images/pattern.png') repeat;
+.home-gallery a{
+  background: #ff6662 url('../images/pattern.png') repeat;
   display: inline-block;
 }
-.gallery-home a img:hover{
-  opacity: 0.6;
+.home-gallery a img{
 }
-.gallery-home .title{
+.home-gallery a img:hover{
+  opacity: 0.2;
 }
-.gallery-home video{
-  width: 340px;
-  height: 230px;
+
+.gallery {
+    position: relative;
+    width: 400px;
+    -webkit-transition: all .2s;
 }
+.gallery:hover {
+    width: 500px;
+}
+.caption {
+    display:none;
+    font-size: 28px;
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    top: 50%;
+    margin: 0 auto;
+    display: table;
+    background: rgba(255, 255, 255, 0.75);
+}
+
+.caption p {
+    display: table-cell;
+    vertical-align: middle;
+    text-align:center;
+}
+
+
 .logo{
   background: white;
   padding: 40px 0;
