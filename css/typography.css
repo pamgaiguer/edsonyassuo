@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'GillSansMT';
+  src: url('../fonts/GillSansMT.eot');
+  src: url('../fonts/GillSansMT.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/GillSansMT.woff2') format('woff2'),
+       url('../fonts/GillSansMT.woff') format('woff'),
+       url('../fonts/GillSansMT.ttf') format('truetype'),
+       url('../fonts/GillSansMT.svg#GillSansMT') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'JapaBrush';
+  src: url('../fonts/JapaneseBrush.eot');
+  src: url('../fonts/JapaneseBrush.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/JapaneseBrush.woff2') format('woff2'),
+       url('../fonts/JapaneseBrush.woff') format('woff'),
+       url('../fonts/JapaneseBrush.ttf') format('truetype'),
+       url('../fonts/JapaneseBrush.svg#JapaneseBrush') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
