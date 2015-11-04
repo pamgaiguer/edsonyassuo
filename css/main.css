@@ -10,6 +10,7 @@ body{
 }
 #sidebar-wrapper{
   background-color: #d6d6d9;
+  min-height: 900px;
 }
 .home-gallery a{
   background: #ff6662 url('../images/pattern.png') repeat;
