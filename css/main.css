@@ -12,43 +12,38 @@ body{
   background-color: #d6d6d9;
   min-height: 900px;
 }
-.home-gallery a{
-  background: #ff6662 url('../images/pattern.png') repeat;
+.gallery {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  float: left;
   display: inline-block;
 }
-.home-gallery a img{
+.gallery:hover{
+  -webkit-transition: all .4s;
+  width: 450px;
+  height: 300px;
 }
-.home-gallery a img:hover{
+.gallery a img:hover {
+  background: #ff6662 url('../images/pattern.png') repeat;
   opacity: 0.2;
-}
 
-.gallery {
-    position: relative;
-    width: 400px;
-    -webkit-transition: all .2s;
-}
-.gallery:hover {
-    width: 500px;
 }
 .caption {
-    display:none;
-    font-size: 28px;
-    position:absolute;
-    height: 100%;
-    width: 100%;
-    top: 50%;
-    margin: 0 auto;
-    display: table;
-    background: rgba(255, 255, 255, 0.75);
+  display:none;
+  font-size: 28px;
+  position:absolute;
+  width: 100%;
+  top: 50%;
+  margin: 0 auto;
+  display: table;
+  background: rgba(255, 255, 255, 0.75);
 }
-
 .caption p {
-    display: table-cell;
-    vertical-align: middle;
-    text-align:center;
+  display: table-cell;
+  vertical-align: middle;
+  text-align:center;
 }
-
-
 .logo{
   background: white;
   padding: 40px 0;

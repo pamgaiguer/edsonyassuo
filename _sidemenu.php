@@ -7,9 +7,9 @@
                     </div>
                     <div class="side-menu">
                         <ul class="list-unstyled">
-                            <a href="work-all.html"><li class="text-center center-block">Trabalhos</li></a>
-                            <a href="about.html"><li class="text-center center-block">Sobre</li></a>
-                            <a href="contact.html"><li class="text-center center-block">Contato</li></a>
+                            <a href="work-all.php"><li class="text-center center-block">Trabalhos</li></a>
+                            <a href="about.php"><li class="text-center center-block">Sobre</li></a>
+                            <a href="contact.php"><li class="text-center center-block">Contato</li></a>
                         </ul>
                     </div>
                     <div class="side-tags">
