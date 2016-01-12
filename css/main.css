@@ -1,6 +1,13 @@
 body{
   font-family: 'GillSansMT';
 }
+a {
+  color: #555A60;
+}
+a:hover, a:active, a:focus, a:active:focus {
+  color: #FF6662;
+  text-decoration: underline;
+}
 .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9,
 .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9,
 .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9,
@@ -10,24 +17,23 @@ body{
 }
 #sidebar-wrapper{
   background-color: #d6d6d9;
-  min-height: 900px;
+  min-height: 676px;
+  margin-right: 10px;
 }
 .gallery {
   position: relative;
   width: 300px;
-  height: 300px;
   float: left;
   display: inline-block;
 }
 .gallery:hover{
-  -webkit-transition: all .4s;
+/*  -webkit-transition: all .4s;
   width: 450px;
-  height: 300px;
+  height: 300px;*/
 }
 .gallery a img:hover {
-  background: #ff6662 url('../images/pattern.png') repeat;
-  opacity: 0.2;
-
+/*  background: #ff6662 url('../images/pattern.png') repeat;
+opacity: 0.2;*/
 }
 .caption {
   display:none;
@@ -48,6 +54,9 @@ body{
   background: white;
   padding: 40px 0;
   color: #555a60;
+}
+.logo a, .logo a:hover, .logo a:active, .logo a:focus, .logo a:active:focus{
+  color: #555a60
 }
 .logo h4{
   font-family: 'JapaBrush';
@@ -88,6 +97,10 @@ body{
   color: #555a60;
 }
 /*=====  About Page =====*/
+.about-page{
+  margin-left: 100px;
+  padding: 0 50px;
+}
 .about-page h1, .contact-page h1, .work-page h1{
   font-family: 'JapaBrush';
   color: #ff6662;

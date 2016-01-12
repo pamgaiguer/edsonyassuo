@@ -1,129 +1,15 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Edson Yassuo - Videografista | Designer | Animador</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/simple-sidebar.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/typography.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="icon" href="images/favicon.ico">
-</head>
+<?php include '_header.php'; ?>
 <body>
-    <div id="wrapper">
-        <!-- Sidebar -->
-        <div id="sidebar-wrapper">
-            <div class="logo">
-                <img src="images/logo.png" class="center-block">
-                <h4 class="text-center">Edson Yassuo</h4>
-                <p class="text-center">Videografista | Designer | Animador</p>
-            </div>
-            <div class="side-menu">
-                <ul class="list-unstyled">
-                    <a href="work-all.html"><li class="text-center center-block">Trabalhos</li></a>
-                    <a href="about.html"><li class="text-center center-block">Sobre</li></a>
-                    <a href="contact.html"><li class="text-center center-block">Contato</li></a>
-                </ul>
-            </div>
-            <div class="side-tags">
-                <legend>TAGS</legend>
-                <ul class="list-unstyled">
-                    <li class="text-left"><a href="#">Todos</a></li>
-                    <li class="text-left"><a href="#">Animação</a></li>
-                    <li class="text-left"><a href="#">Design</a></li>
-                    <li class="text-left"><a href="#">Edição de Vídeo</a></li>
-                </ul>
-            </div>
-            <p class="text-center">Copyright &copy; <a href="http://www.pamellagaiguer.com" target="_blank">Pam Gaiguer</a></p>
-        </div>
-        <!-- /#sidebar-wrapper -->
-        <!-- Page Content -->
-        <div id="page-content-wrapper">
-            <div class="container-fluid">
-                <div class="home-gallery">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                            <div class="gallery">
-                                <a href="work-view-01-zica.html">
-                                    <img src="videos/01_zica.gif">
-                                    <div class="caption">
-                                        <p>Zica e os camaleões</p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="gallery">
-                                <a href="work-view-04-dragao.html">
-                                    <img src="videos/04-dragao.gif">
-                                    <div class="caption">
-                                        <p>Como treinar seu dragão 2</p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="gallery">
-                                <a href="work-view-07-webdesign.html">
-                                    <img src="videos/07_webdesign.gif">
-                                    <div class="caption"><p>Webdesign</p></div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                            <div class="gallery">
-                                <a href="work-view-02-assinatura.html">
-                                    <img src="videos/02_diario_assinatura.gif">
-                                    <div class="caption">
-                                        <p>Assinatura Digital</p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="gallery">
-                                <a href="work-view-05-reel2015.html">
-                                    <img src="videos/05_reel_2015.gif">
-                                    <div class="caption"><p>Reel 2015</p></div>
-                                </a>
+    <div class="container-fluid">
+        <div class="row">
+            <?php include '_sidemenu.php'; ?>
 
-                            </div>
-                            <div class="gallery">
-                                <a href="work-view-08-vicentinos.html">
-                                    <img src="videos/08_vicentinos.gif">
-                                    <div class="caption"><p>Vicentinos</p></div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                            <div class="gallery">
-                                <a href="work-view-03-bela.html">
-                                    <img src="videos/03-bela.gif">
-                                    <div class="caption">
-                                        <p>Concurso Bela da Praia</p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="gallery">
-                                <a href="work-view-06-reel-2014.html">
-                                    <img src="videos/06_reel_2014.gif">
-                                    <div class="caption"><p>Reel 2014</p></div>
-                                </a>
-                            </div>
-                            <div class="gallery">
-                                <a href="work-view-09-malvadao.html">
-                                    <img src="videos/09_concurso.gif">
-                                    <div class="caption"><p>Concurso Malvadão</p></div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div id="galeria-home">
+
             </div>
+
         </div>
     </div>
-    <script src="js/jquery-2.1.3.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/angular.min.js"></script>
-    <script src="js/main.js"></script>
+    <?php include '_footer.php'; ?>
 </body>
 </html>

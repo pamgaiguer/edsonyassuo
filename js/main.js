@@ -7,7 +7,7 @@ $(document).ready(function(){
         "projetos": [
         {
             "name": "Concurso Malvadão",
-            "gifPath": "../images/gif/concurso_malvadao.gif",
+            "gifPath": "images/gif/concurso_malvadao.gif",
             "categoria": "",
             "captionProject": "Concurso Malvadão",
             "linkPage": "../work-view-malvadao.php"
@@ -68,7 +68,7 @@ $(document).ready(function(){
 
         viewProjetos += "<div class='gallery' id=element_'"+k+"'>\
         <a href='" + e.linkPage + "'>\
-        <img src='"+ e.gifPath + "'>\
+        <img class='img-responsive' src='"+ e.gifPath + "'>\
         <div class='caption'>\
         <p>'"+ e.captionProject +"'</p>\
         </div>\

@@ -1,9 +1,11 @@
             <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
                 <div id="sidebar-wrapper">
                     <div class="logo">
-                        <img src="images/logo.png" class="center-block">
-                        <h4 class="text-center">Edson Yassuo</h4>
-                        <p class="text-center">Videografista | Designer | Animador</p>
+                        <a href="index.php">
+                            <img src="images/logo.png" class="center-block">
+                            <h4 class="text-center">Edson Yassuo</h4>
+                            <p class="text-center">Videografista | Designer | Animador</p>
+                        </a>
                     </div>
                     <div class="side-menu">
                         <ul class="list-unstyled">

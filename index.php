@@ -3,6 +3,7 @@
     <div class="container-fluid">
         <div class="row">
             <?php include '_sidemenu.php'; ?>
+
             <div id="galeria-home">
 
             </div>
