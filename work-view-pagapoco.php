@@ -1,76 +1,29 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Edson Yassuo - Videografista | Designer | Animador</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/simple-sidebar.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/typography.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="icon" href="images/favicon.ico">
-</head>
+<?php include '_header.php'; ?>
 <body>
-    <div id="wrapper">
-        <!-- Sidebar -->
-        <div id="sidebar-wrapper">
-            <div class="logo">
-                <img src="images/logo.png" class="center-block">
-                <h4 class="text-center">Edson Yassuo</h4>
-                <p class="text-center">Videografista | Designer | Animador</p>
-            </div>
-            <div class="side-menu">
-                <ul class="list-unstyled">
-                    <a href="work-all.html"><li class="text-center center-block">Trabalhos</li></a>
-                    <a href="about.html"><li class="text-center center-block">Sobre</li></a>
-                    <a href="contact.html"><li class="text-center center-block">Contato</li></a>
-                </ul>
-            </div>
-            <div class="side-tags">
-                <legend>TAGS</legend>
-                <ul class="list-unstyled">
-                    <li class="text-left"><a href="#">Todos</a></li>
-                    <li class="text-left"><a href="#">Animação</a></li>
-                    <li class="text-left"><a href="#">Design</a></li>
-                    <li class="text-left"><a href="#">Edição de Vídeo</a></li>
-                </ul>
-            </div>
-            <p class="text-center">Copyright &copy; <a href="http://www.pamellagaiguer.com" target="_blank">Pam Gaiguer</a></p>
-        </div>
-        <!-- /#sidebar-wrapper -->
-        <!-- Page Content -->
-        <div id="page-content-wrapper">
-            <div class="container-fluid">
+    <div class="container-fluid">
+        <div class="row">
+            <?php include '_sidemenu.php'; ?>
+            <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
                 <div class="work-page">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                            <h1 class="title-red">Concurso Malvadao</h1>
-                            <hr>
-                            <p>Projeto pessoal de curta-metragem em andamento </p>
-                            <ul class="list-unstyled">
-                                <li><span>Data: </span>2015</li>
-                                <li><span>Cliente: </span>Trabalho Pessoal iniciado no NUPA (Núcleo Paulista de Animação)</li>
-                                <li><span>Tags: </span>animação, character design, storyboard</li>
-                            </ul>
-                            <div class="still-gallery">
-                                <img src="images/malvadao/malvadao_still_01.jpg" alt="">
-                                <img src="images/malvadao/malvadao_still_02.jpg" alt="">
-                                <img src="images/malvadao/malvadao_still_03.jpg" alt="">
-                                <img src="images/malvadao/malvadao_still_04.jpg" alt="">
-                            </div>
-                        </div>
+                    <h1 class="title-red">Pagapo.co</h1>
+                    <hr>
+                    <p> </p>
+                    <ul class="list-unstyled">
+                        <li><span>Data: </span>2015</li>
+                        <li><span>Cliente: </span>Trabalho Pessoal iniciado no NUPA (Núcleo Paulista de Animação)</li>
+                        <li><span>Tags: </span>animação, character design, storyboard</li>
+                    </ul>
+                    <div class="still-gallery">
+                        <img src="images/pagapoco_still_01.jpg" class="img-responsive" alt="">
+                        <img src="images/pagapoco_still_02.jpg" class="img-responsive" alt="">
                     </div>
+                    <video controls class="embed-responsive-item center-block" preload="auto" poster="images/video_thumb_pagapoco.jpg">
+                        <source src="videos/03-PAGAPOCO.mp4" type="video/mp4" />
+                    </video>
                 </div>
             </div>
         </div>
     </div>
-    <script src="js/jquery-2.1.3.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/angular.min.js"></script>
-    <script src="js/main.js"></script>
+    <?php include '_footer.php'; ?>
 </body>
 </html>

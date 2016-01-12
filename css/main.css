@@ -17,7 +17,7 @@ a:hover, a:active, a:focus, a:active:focus {
 }
 #sidebar-wrapper{
   background-color: #d6d6d9;
-  min-height: 676px;
+  min-height: 1000px;
   margin-right: 10px;
 }
 .gallery {
@@ -109,6 +109,9 @@ opacity: 0.2;*/
   color: #555a60;
   font-size: 20px;
 }
+.work-page video{
+  margin-left: 10px;
+}
 .work-page ul li span, .contact-page ul li span{
   color: #ff6662;
   font-size: 20px;
@@ -118,9 +121,9 @@ opacity: 0.2;*/
   font-size: 20px;
 }
 video {
-  width: 100%;
-  max-height: 100%;
+  width: 700px;
 }
 .still-gallery img{
   width: 450px;
+  float: left;
 }
