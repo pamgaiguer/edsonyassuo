@@ -12,6 +12,7 @@
                             <a href="work-all.php"><li class="text-center center-block">Trabalhos</li></a>
                             <a href="about.php"><li class="text-center center-block">Sobre</li></a>
                             <a href="contact.php"><li class="text-center center-block">Contato</li></a>
+                            <a href="visual-identity.php"><li class="text-center center-block">Identidade Visual</li></a>
                         </ul>
                     </div>
                     <div class="side-tags">

@@ -60,6 +60,13 @@ $(document).ready(function(){
             "categoria": "",
             "captionProject": "Zica e os camaleões",
             "linkPage": "../work-view-zica.php"
+        },
+        {
+            "name": "Identidade Visual",
+            "gifPath": "../images/gif/visual_identity_seiki.gif",
+            "categoria": "",
+            "captionProject": "Identidade Visual",
+            "linkPage": "../visual-identity.php"
         }
         ]
     }
