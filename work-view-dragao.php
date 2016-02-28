@@ -24,10 +24,8 @@
                     <video controls class="embed-responsive-item center-block" preload="auto" poster="images/video_thumb_dragao.jpg">
                         <source src="videos/04-dragao.mp4" type="video/mp4" />
                     </video>
-
                 </div>
             </div>
-
         </div>
     </div>
     <?php include '_footer.php'; ?>

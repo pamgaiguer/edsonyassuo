@@ -18,7 +18,6 @@
                     </video>
                 </div>
             </div>
-
         </div>
     </div>
     <?php include '_footer.php'; ?>

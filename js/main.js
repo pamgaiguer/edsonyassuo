@@ -5,6 +5,14 @@ $(document).ready(function(){
     var galeria =
     {
         "projetos": [
+
+        {
+            "name": "Reel",
+            "gifPath": "../images/gif/reel.gif",
+            "categoria": "",
+            "captionProject": "Reel",
+            "linkPage": "../work-view-reel.php"
+        },
         {
             "name": "Concurso Malvadão",
             "gifPath": "images/gif/concurso_malvadao.gif",
@@ -27,25 +35,18 @@ $(document).ready(function(){
             "linkPage": "../work-view-dragao.php"
         },
         {
-            "name": "PagaPoco",
-            "gifPath": "../images/gif/PAGAPOCO.gif",
-            "categoria": "",
-            "captionProject": "PagaPoco",
-            "linkPage": "../work-view-pagapoco.php"
-        },
-        {
-            "name": "Reel",
-            "gifPath": "../images/gif/reel.gif",
-            "categoria": "",
-            "captionProject": "Reel",
-            "linkPage": "../work-view-reel.php"
-        },
-        {
             "name": "Vicentinos",
             "gifPath": "../images/gif/vicentinos.gif",
             "categoria": "",
             "captionProject": "Vicentinos",
             "linkPage": "../work-view-vicentinos.php"
+        },
+        {
+            "name": "PagaPoco",
+            "gifPath": "../images/gif/PAGAPOCO.gif",
+            "categoria": "",
+            "captionProject": "PagaPoco",
+            "linkPage": "../work-view-pagapoco.php"
         },
         {
             "name": "Webdesign",
